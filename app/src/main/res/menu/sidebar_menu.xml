@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Search"
+            android:icon="@drawable/search"
+            android:id="@+id/search"/>
+        <item
+            android:title="stories"
+            android:icon="@drawable/story"
+            android:id="@+id/stories"/>
+        <item
+            android:title="scenes"
+            android:icon="@drawable/scene"
+            android:id="@+id/scenes"/>
+        <item
+            android:title="characters"
+            android:icon="@drawable/character"
+            android:id="@+id/characters"/>
+    </group>
+    <item android:title="more">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="support"
+                    android:icon="@drawable/support"
+                    android:id="@+id/support"/>
+                <item
+                    android:title="setting"
+                    android:icon="@drawable/setting"
+                    android:id="@+id/setting"/>
+            </group>
+        </menu>
+    </item>
+</menu>
